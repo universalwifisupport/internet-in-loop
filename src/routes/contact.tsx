@@ -119,7 +119,9 @@ function ContactPage() {
                   <span className="chip">Email</span>
                   <Mail className="h-5 w-5 text-primary" />
                 </div>
-                <div className="mt-6 font-display text-3xl text-ink">hello@internetinloop.com</div>
+                <div className="mt-6 font-display text-2xl sm:text-3xl text-ink break-all">
+                  hello@internetinloop.com
+                </div>
                 <div className="mt-2 text-sm text-ink-muted">Reply within one business day</div>
               </a>
               <div className="grid grid-cols-2 gap-4">
