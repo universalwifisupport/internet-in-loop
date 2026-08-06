@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 130" width="620" height="130">
+  <g>
+    <circle cx="65" cy="65" r="52" fill="none" stroke="#FFFFFF" stroke-width="9"/>
+    <circle cx="65" cy="65" r="30" fill="none" stroke="#FFFFFF" stroke-width="9" opacity="0.55"/>
+    <circle cx="65" cy="65" r="9" fill="#FFFFFF"/>
+  </g>
+  <text x="146" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Internet<tspan font-style="italic" opacity="0.75"> in loop</tspan></text>
+</svg>
