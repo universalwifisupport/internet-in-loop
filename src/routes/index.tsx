@@ -77,6 +77,9 @@ function HomePage() {
                   <Link to="/contact" className="btn-accent">
                     <Search className="h-4 w-4" /> Read my area
                   </Link>
+                  <a href="tel:+18886202103" className="btn-ghost">
+                    <Phone className="h-4 w-4" /> (888) 620-2103
+                  </a>
                   <Link to="/learning-center" className="btn-ghost">
                     Browse the Journal <ArrowRight className="h-4 w-4" />
                   </Link>

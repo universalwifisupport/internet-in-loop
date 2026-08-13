@@ -1,3 +1,4 @@
+import { Phone } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
 
 export function PageHero({
@@ -25,6 +26,12 @@ export function PageHero({
               {subtitle && (
                 <p className="mt-6 max-w-xl text-lg text-ink-muted leading-relaxed">{subtitle}</p>
               )}
+              <a
+                href="tel:+18886202103"
+                className="mt-6 inline-flex items-center gap-2 mono text-sm font-medium text-ink hover:text-primary transition"
+              >
+                <Phone className="h-4 w-4 text-primary" /> (888) 620-2103
+              </a>
             </Reveal>
           </div>
           {bgImage && (
