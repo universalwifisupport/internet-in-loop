@@ -27,10 +27,10 @@ export function PageHero({
                 <p className="mt-6 max-w-xl text-lg text-ink-muted leading-relaxed">{subtitle}</p>
               )}
               <a
-                href="tel:+18886202103"
+                href="tel:+18888824649"
                 className="mt-6 inline-flex items-center gap-2 mono text-sm font-medium text-ink hover:text-primary transition"
               >
-                <Phone className="h-4 w-4 text-primary" /> (888) 620-2103
+                <Phone className="h-4 w-4 text-primary" /> (888) 882-4649
               </a>
             </Reveal>
           </div>

@@ -59,8 +59,8 @@ function AboutPage() {
                 <Link to="/contact" className="btn-accent">
                   Reach the desk <ArrowUpRight className="h-4 w-4" />
                 </Link>
-                <a href="tel:+18886202103" className="btn-ghost">
-                  <Phone className="h-4 w-4" /> (888) 620-2103
+                <a href="tel:+18888824649" className="btn-ghost">
+                  <Phone className="h-4 w-4" /> (888) 882-4649
                 </a>
               </div>
             </div>

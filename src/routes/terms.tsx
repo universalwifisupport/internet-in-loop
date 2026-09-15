@@ -94,7 +94,7 @@ function TermsPage() {
 
         <h2>11. Contact</h2>
         <p>
-          For questions about these terms, call <a href="tel:+18886202103">(888) 620-2103</a> or
+          For questions about these terms, call <a href="tel:+18888824649">(888) 882-4649</a> or
           email <a href="mailto:legal@internetinloop.com">legal@internetinloop.com</a>.
         </p>
       </LegalContent>

@@ -62,10 +62,10 @@ export function Navbar() {
 
           <div className="hidden md:flex items-center gap-2">
             <a
-              href="tel:+18886202103"
+              href="tel:+18888824649"
               className="hidden lg:inline-flex items-center gap-2 text-sm text-ink font-medium mono"
             >
-              <Phone className="h-3.5 w-3.5 text-primary" /> (888) 620-2103
+              <Phone className="h-3.5 w-3.5 text-primary" /> (888) 882-4649
             </a>
             <Link to="/contact" className="btn-accent !py-2.5 !px-5 text-[13px]">
               Check my area <ArrowUpRight className="h-3.5 w-3.5" />
@@ -100,10 +100,10 @@ export function Navbar() {
                 Check my area
               </Link>
               <a
-                href="tel:+18886202103"
+                href="tel:+18888824649"
                 className="flex items-center justify-center gap-2 mt-2 px-4 py-3 rounded-full border border-border text-sm font-medium text-ink mono"
               >
-                <Phone className="h-3.5 w-3.5 text-primary" /> (888) 620-2103
+                <Phone className="h-3.5 w-3.5 text-primary" /> (888) 882-4649
               </a>
             </div>
           </div>

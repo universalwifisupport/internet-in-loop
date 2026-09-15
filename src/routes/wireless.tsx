@@ -165,11 +165,11 @@ function WirelessPage() {
                   Check coverage <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="tel:+18886202103"
+                  href="tel:+18888824649"
                   className="inline-flex items-center justify-between px-6 py-4 rounded-full border border-cream/30 text-sm font-medium text-cream hover:bg-cream hover:text-ink transition"
                 >
                   <span className="flex items-center gap-2">
-                    <Phone className="h-4 w-4" /> (888) 620-2103
+                    <Phone className="h-4 w-4" /> (888) 882-4649
                   </span>
                   <ArrowRight className="h-4 w-4" />
                 </a>

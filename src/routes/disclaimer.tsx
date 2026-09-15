@@ -56,7 +56,7 @@ function DisclaimerPage() {
           <h2>Contact</h2>
           <p>
             Questions? Reach us at <a href="mailto:hello@internetinloop.com">hello@internetinloop.com</a> or
-            (888) 620-2103.
+            (888) 882-4649.
           </p>
         </LegalContent>
       </div>

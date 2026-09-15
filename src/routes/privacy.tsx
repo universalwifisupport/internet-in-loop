@@ -84,7 +84,7 @@ function PrivacyPage() {
 
         <h2>9. Contact</h2>
         <p>
-          Questions? Call <a href="tel:+18886202103">(888) 620-2103</a> or email{" "}
+          Questions? Call <a href="tel:+18888824649">(888) 882-4649</a> or email{" "}
           <a href="mailto:privacy@internetinloop.com">privacy@internetinloop.com</a>.
         </p>
       </LegalContent>

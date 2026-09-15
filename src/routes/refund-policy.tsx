@@ -77,7 +77,7 @@ function RefundPolicyPage() {
         <p>
           To request a refund, email us at{" "}
           <a href="mailto:support@internetinloop.com">support@internetinloop.com</a> or call{" "}
-          <a href="tel:+18886202103">(888) 620-2103</a> with your name, date of purchase, and reason
+          <a href="tel:+18888824649">(888) 882-4649</a> with your name, date of purchase, and reason
           for the request. We aim to respond within 2 business days.
         </p>
 
@@ -106,7 +106,7 @@ function RefundPolicyPage() {
         <p>
           For questions about this Refund Policy, reach us at{" "}
           <a href="mailto:support@internetinloop.com">support@internetinloop.com</a> or call{" "}
-          <a href="tel:+18886202103">(888) 620-2103</a>.
+          <a href="tel:+18888824649">(888) 882-4649</a>.
         </p>
       </LegalContent>
     </SiteLayout>
