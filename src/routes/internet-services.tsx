@@ -10,14 +10,14 @@ import desk from "@/assets/bl-desk.jpg";
 export const Route = createFileRoute("/internet-services")({
   head: () => ({
     meta: [
-      { title: "Internet — Fiber, Cable, 5G & DSL Compared | Internet in loop" },
+      { title: "Streaming Internet — Fiber, Cable, 5G & DSL Compared | Internet in loop" },
       {
         name: "description",
         content:
-          "An editorial comparison of fiber, cable, 5G home internet and DSL. Speed tiers translated to real-life use, block by block.",
+          "An editorial comparison of internet options for streaming homes — fiber, cable, 5G, and DSL translated into smooth-streaming performance, not brochure language.",
       },
-      { property: "og:title", content: "Internet Comparison — Internet in loop" },
-      { property: "og:description", content: "Fiber vs cable vs 5G vs DSL — plain English." },
+      { property: "og:title", content: "Streaming Internet Guide — Internet in loop" },
+      { property: "og:description", content: "Fiber, cable, 5G and DSL for HD, 4K, and live-streaming homes — plain English." },
       { property: "og:image", content: fiber },
     ],
     links: [{ rel: "canonical", href: "/internet-services" }],
@@ -31,36 +31,36 @@ const techs = [
     tag: "Fiber",
     title: "Fiber Internet",
     accent: "card-tomato",
-    desc: "Glass-strand connections carrying light. Symmetrical up/down, near-zero latency, headroom for cloud work and gaming.",
+    desc: "Glass-strand connections carrying light. Symmetrical upload and download speeds keep 4K streams, cloud backups, and live sports smooth even when the whole house is online.",
     tiers: ["300 Mbps", "1 Gbps", "2 Gbps", "5 Gbps"],
-    best: "Remote workers, streaming-heavy households, gamers.",
+    best: "4K streaming homes, remote workers, and households with multiple screens.",
   },
   {
     icon: Cable,
     tag: "Cable",
     title: "Cable Internet",
     accent: "card-paper",
-    desc: "Coax-based service. Broadly available across metro and suburban areas with strong download tiers and bundling.",
+    desc: "Coax-based service. Broadly available and usually great for cable bundles, streaming-heavy households, and homes that want strong speed without a full fiber upgrade.",
     tiers: ["100 Mbps", "300 Mbps", "600 Mbps", "1.2 Gbps"],
-    best: "Suburbs, TV-and-internet bundles, mixed households.",
+    best: "Suburbs, bundle buyers, and families mixing live TV with streaming apps.",
   },
   {
     icon: Signal,
     tag: "5G Home",
     title: "5G Home Internet",
     accent: "card-mustard",
-    desc: "Wireless internet from a 5G tower to a receiver at your home. Fast install, no truck-roll, flat pricing.",
+    desc: "Wireless internet from a 5G tower to a receiver at your home. Fast install, simple setup, and a good option if you want to stream without paying for a truck roll or a complicated install.",
     tiers: ["100 Mbps", "300 Mbps", "500 Mbps", "1 Gbps"],
-    best: "Renters, new-build homes, strong-signal ZIPs.",
+    best: "Renters, stream-first households, and homes with strong local 5G signal.",
   },
   {
     icon: Wifi,
     tag: "DSL / Fixed",
     title: "DSL & Fixed Wireless",
     accent: "card-sage",
-    desc: "Phone-line and tower-to-antenna. Still serving rural areas where fiber and cable haven't arrived.",
+    desc: "Phone-line or tower-based connections. Not glamorous, but still useful for rural homes and backup streams where cable or fiber has not reached yet.",
     tiers: ["25 Mbps", "50 Mbps", "100 Mbps", "—"],
-    best: "Rural households, seasonal cabins, backup lines.",
+    best: "Rural households, cabins, and homes that need a basic stream-safe fallback.",
   },
 ];
 
@@ -68,9 +68,9 @@ function InternetPage() {
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="Section 01 · Internet"
-        title="Every wire. Every waveform. Read side-by-side."
-        subtitle="Fiber, cable, 5G home and DSL — the four technologies powering U.S. households, translated out of the brochure."
+        eyebrow="Section 01 · Internet for Streaming"
+        title="Choose the connection your stream setup actually needs."
+        subtitle="Fiber, cable, 5G home internet, and DSL all shape how smoothly your TV, sports, and streaming apps perform at home."
         bgImage={fiber}
       />
 
@@ -141,15 +141,15 @@ function InternetPage() {
               {
                 t: "25–100 Mbps",
                 w: "Solo / duo",
-                d: "Comfortable browsing, HD streams, weekly calls.",
+                d: "Smooth HD streaming, light browsing, and occasional video calls.",
               },
               {
                 t: "200–500 Mbps",
                 w: "Family",
-                d: "Streaming-heavy homes, remote work, smart devices.",
+                d: "4K streams, multiple screens, remote work, and smart-home devices.",
               },
-              { t: "1 Gbps", w: "Power", d: "Multi-person, gaming, cloud backups, big uploads." },
-              { t: "2 Gbps+", w: "Studio", d: "Creators, smart-home superusers, live streaming." },
+              { t: "1 Gbps", w: "Power", d: "Peak streaming, cloud backups, gaming, and big uploads." },
+              { t: "2 Gbps+", w: "Studio", d: "Live streaming, creator setups, and a house full of screens." },
             ].map((s) => (
               <div key={s.t} className="card-paper p-6">
                 <div className="chip">{s.w}</div>
@@ -182,15 +182,15 @@ function InternetPage() {
               Advertised speed is a <span className="italic text-primary">headline.</span>
             </h2>
             <p className="mt-5 text-ink-muted leading-relaxed">
-              The Internet in loop editorial always publishes the four numbers that actually matter —
-              download, upload, latency and the price after promotional periods end.
+              The Internet in loop editorial always publishes the four numbers that matter most for
+              streaming life: download speed, upload speed, latency, and the price after promotional rates end.
             </p>
             <ul className="mt-6 space-y-3 text-ink">
               {[
-                "Upload speed — the number streamers and remote workers feel most",
-                "Latency — the number gamers and video-call users feel most",
-                "Data caps — the number nobody advertises but everyone pays for",
-                "Post-promo pricing — the number your bill actually becomes",
+                "Upload speed — the number that keeps a live stream or video call stable",
+                "Latency — the number that matters for gaming and lag-free playback",
+                "Data caps — the number nobody advertises but every streaming household notices",
+                "Post-promo pricing — the number your monthly bill actually becomes",
               ].map((p) => (
                 <li key={p} className="flex items-start gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-primary shrink-0" />

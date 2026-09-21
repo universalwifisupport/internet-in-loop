@@ -10,7 +10,7 @@ export const Route = createFileRoute("/terms")({
       {
         name: "description",
         content:
-          "Terms of service governing the use of Internet in loop internet, cable, and related services.",
+          "Terms of use governing Internet in loop — an independent editorial comparison platform for streaming services, live TV, sports packages, and connected home entertainment.",
       },
       { property: "og:title", content: "Terms & Conditions — Internet in loop" },
       { property: "og:url", content: "/terms" },
@@ -26,64 +26,72 @@ function TermsPage() {
       <PageHero
         eyebrow="Legal"
         title="Terms & Conditions"
-        subtitle="Last updated: January 2026. The rules that keep our service fair, fast and dependable for everyone."
+        subtitle="Last updated: January 2026. The guidelines that keep our editorial platform honest, transparent, and useful for every household."
       />
       <LegalContent>
         <h2>1. Acceptance of Terms</h2>
         <p>
-          By ordering, installing or using Internet in loop services, you agree to these Terms &
-          Conditions and our Privacy Policy.
+          By using Internet in loop — including browsing guides, using the comparison tools, or
+          contacting our editorial team — you agree to these Terms & Conditions and our Privacy
+          Policy.
         </p>
 
         <h2>2. Service Description</h2>
         <p>
-          Internet in loop provides residential and business internet, cable TV, home WiFi, and bundled
-          streaming services across the contiguous United States.
+          Internet in loop is an independent editorial comparison platform for streaming services,
+          live TV, sports packages, home Wi-Fi, and wireless options. We provide informational
+          guidance to help households make smarter entertainment decisions. We do not own or operate
+          any streaming platform, cable network, internet service, or wireless carrier.
         </p>
 
-        <h2>3. Account Responsibilities</h2>
+        <h2>3. Editorial Integrity</h2>
         <p>
-          You are responsible for maintaining the confidentiality of your account credentials and
-          for all activity that occurs under your account.
+          Our comparisons and recommendations are written for households, not providers. Participating
+          providers may compensate us when a reader selects their service; this never changes how
+          plans are ranked or presented in our editorial.
         </p>
 
-        <h2>4. Billing & Payment</h2>
+        <h2>4. Assistance Fees & Payment</h2>
         <p>
-          Service fees are billed monthly in advance. Failure to pay may result in service
-          suspension after 15 days. Promotional rates are valid for the period stated on your order;
+          Where Internet in loop charges a one-time advisory or setup-assistance fee, that fee is
+          disclosed before purchase. Promotional rates apply for the period stated at checkout;
           standard rates apply thereafter.
         </p>
 
         <h2>5. Acceptable Use</h2>
         <p>
-          You agree not to use our network for unlawful activities, to distribute malware, to send
-          unsolicited bulk communications, or to resell service without written authorization.
+          You agree not to use our platform for unlawful purposes, to scrape or resell our editorial
+          content without written authorization, or to misrepresent your identity when contacting
+          our advisory team.
         </p>
 
-        <h2>6. Equipment</h2>
+        <h2>6. Third-Party Providers</h2>
         <p>
-          Equipment provided by Internet in loop remains our property and must be returned in working
-          condition within 30 days of service cancellation to avoid replacement charges.
+          Plans, pricing, and availability displayed on Internet in loop are sourced from
+          participating providers and subject to change without notice. Always confirm current terms
+          directly with the provider before signing any agreement. Internet in loop is not responsible
+          for provider-side decisions, outages, or pricing changes after you sign up.
         </p>
 
-        <h2>7. Service Availability</h2>
+        <h2>7. No Guarantees on Availability</h2>
         <p>
-          While we target 99.99% uptime, we do not guarantee uninterrupted service. We are not
-          liable for outages caused by force majeure, third-party infrastructure, or customer-side
-          equipment.
+          Internet in loop indexes availability data against provider feeds, but we cannot guarantee
+          that any specific streaming plan or service is available at your address at the time of your
+          inquiry. Confirm availability directly with the provider before purchase.
         </p>
 
-        <h2>8. Cancellation</h2>
+        <h2>8. Cancellation of Advisory Services</h2>
         <p>
-          Month-to-month customers may cancel at any time without penalty. Annual-term customers
-          cancelling early may be subject to a prorated early termination fee as disclosed at
-          sign-up.
+          Advisory assistance purchased through Internet in loop may be cancelled before the session
+          begins for a full refund. See our Refund Policy for full eligibility details.
         </p>
 
         <h2>9. Limitation of Liability</h2>
         <p>
           To the maximum extent permitted by law, our liability for any claim arising out of these
-          terms is limited to the fees paid by you in the 12 months preceding the claim.
+          terms is limited to the fees paid by you in the 12 months preceding the claim. Internet in
+          loop is not liable for decisions made based on provider pricing or availability data shown
+          on this platform.
         </p>
 
         <h2>10. Governing Law</h2>

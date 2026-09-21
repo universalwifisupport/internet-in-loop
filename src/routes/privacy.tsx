@@ -9,7 +9,8 @@ export const Route = createFileRoute("/privacy")({
       { title: "Privacy Policy | Internet in loop" },
       {
         name: "description",
-        content: "How Internet in loop collects, uses and protects your personal information.",
+        content:
+          "How Internet in loop collects, uses, and protects your information when you use our streaming, live TV, and connected-home entertainment comparison platform.",
       },
       { property: "og:title", content: "Privacy Policy — Internet in loop" },
       { property: "og:url", content: "/privacy" },
@@ -25,42 +26,44 @@ function PrivacyPage() {
       <PageHero
         eyebrow="Legal"
         title="Privacy Policy"
-        subtitle="Last updated: January 2026. Your data, handled with the same care we give your connection."
+        subtitle="Last updated: January 2026. Your data, handled with care — plain and simple."
       />
       <LegalContent>
         <h2>1. Information We Collect</h2>
         <p>
           Internet in loop ("we", "us") collects personal information you provide directly — name,
-          address, phone, email, payment details, and ZIP code — as well as technical data such as
-          device identifiers, IP address, and network performance metrics required to deliver your
-          service.
+          ZIP code, phone, and email — when you use our comparison tools or contact our editorial
+          team. We also collect standard technical data such as device identifiers, IP address, and
+          browser type to keep our platform running smoothly.
         </p>
 
         <h2>2. How We Use Your Information</h2>
         <p>
-          We use your information to provision service, process payments, deliver support, prevent
-          fraud, improve our network, and (with your consent) send you product updates and
-          promotional offers. We never sell your personal information.
+          We use your information to match streaming and TV options to your location, process advisory
+          service requests, deliver support, prevent fraud, improve our editorial platform, and (with
+          your consent) send you streaming tips and product updates. We never sell your personal
+          information.
         </p>
 
         <h2>3. Sharing & Disclosure</h2>
         <p>
           We share information only with service providers bound by strict confidentiality
-          agreements (payment processors, installation contractors, regulatory bodies) or when
-          required by law.
+          agreements (payment processors, analytics partners) or when required by law. We do not
+          share your personal data with third-party streaming or cable providers without your
+          explicit consent.
         </p>
 
         <h2>4. Cookies & Tracking</h2>
         <p>
           Our website uses essential cookies for session management and optional analytics cookies
-          to understand site usage. You may opt out of non-essential cookies at any time from your
-          browser settings.
+          to understand how households use our comparison tools. You may opt out of non-essential
+          cookies at any time from your browser settings.
         </p>
 
         <h2>5. Data Security</h2>
         <p>
-          We use AES-256 encryption in transit and at rest, multi-factor authentication on internal
-          systems, and continuous monitoring by an in-house SOC team.
+          We use encryption in transit and at rest, and multi-factor authentication on internal
+          systems to protect your data.
         </p>
 
         <h2>6. Your Rights</h2>
@@ -72,7 +75,7 @@ function PrivacyPage() {
 
         <h2>7. Children's Privacy</h2>
         <p>
-          Our services are not directed to children under 13. We do not knowingly collect personal
+          Our platform is not directed to children under 13. We do not knowingly collect personal
           information from minors.
         </p>
 

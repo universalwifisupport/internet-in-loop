@@ -24,17 +24,17 @@ import mobile from "@/assets/bl-mobile.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Internet in loop — The Editorial Guide to Home Internet, TV & Wireless" },
+      { title: "Internet in loop — Streaming, Live TV & Entertainment Guide" },
       {
         name: "description",
         content:
-          "Internet in loop is a plain-English comparison desk for home internet, TV, streaming and wireless — written for households, not sales floors.",
+          "Internet in loop helps households compare streaming services, live TV bundles, and entertainment plans without the sales pressure.",
       },
-      { property: "og:title", content: "Internet in loop — Editorial Guide to Home Connectivity" },
+      { property: "og:title", content: "Internet in loop — Streaming & TV Guide" },
       {
         property: "og:description",
         content:
-          "Compare fiber, cable, 5G home internet, streaming and mobile — ZIP-scoped, no pressure.",
+          "Compare streaming platforms, live TV bundles, sports packages, and connected-home entertainment — written for real households.",
       },
       { property: "og:url", content: "/" },
       { property: "og:image", content: hero },
@@ -61,21 +61,19 @@ function HomePage() {
                   </span>
                 </div>
                 <h1 className="mt-8 font-display text-[clamp(3rem,8vw,7.5rem)] leading-[0.92] tracking-[-0.03em] text-ink">
-                  Home internet,
+                  Streaming,
                   <br />
-                  <span className="italic text-primary">deciphered</span> —
+                  <span className="italic text-primary">live sports,</span>
                   <br />
-                  block by block.
+                  and the perfect watch stack.
                 </h1>
                 <p className="mt-8 max-w-lg text-lg text-ink-muted leading-relaxed">
-                  Internet in loop reads every plan on your street so you don't have to. We translate speed
-                  tiers, bundle math, and streaming stacks into decisions a household can actually
-                  make.
+                  Internet in loop helps you sort through the real entertainment choices behind your screen: Netflix, live TV, sports bundles, premium channels, and the connection that keeps every stream smooth.
                 </p>
 
                 <div className="mt-10 flex flex-wrap items-center gap-3">
                   <Link to="/contact" className="btn-accent">
-                    <Search className="h-4 w-4" /> Read my area
+                    <Search className="h-4 w-4" /> Compare my stack
                   </Link>
                   <a href="tel:+18888824649" className="btn-ghost">
                     <Phone className="h-4 w-4" /> (888) 882-4649
@@ -132,11 +130,11 @@ function HomePage() {
                       Live index
                     </div>
                     <div className="mt-2 stat-num text-5xl">3,812</div>
-                    <div className="mt-1 text-xs opacity-90">plans compared this week</div>
+                    <div className="mt-1 text-xs opacity-90">watch stacks compared this week</div>
                   </div>
                   <div className="absolute -right-2 top-10 hidden sm:block card-mustard px-4 py-3 rounded-full shadow-elegant rotate-[4deg]">
                     <div className="mono text-[11px] font-semibold uppercase tracking-widest">
-                      Fiber · Cable · 5G · DSL
+                      Live TV · Sports · On-Demand
                     </div>
                   </div>
                 </div>
@@ -151,14 +149,14 @@ function HomePage() {
         <div className="flex marquee-track whitespace-nowrap gap-16 mono text-sm tracking-widest uppercase">
           {[...Array(2)].flatMap((_, k) =>
             [
-              "Fiber Optics",
-              "Cable · Coax",
-              "5G Home",
-              "Fixed Wireless",
-              "Wi-Fi 7",
-              "Streaming Stacks",
+              "Live Sports",
+              "Streaming Apps",
+              "Cable vs Stream",
+              "4K & DVR",
               "Bundle Math",
-              "ZIP-scoped Data",
+              "Sports Packages",
+              "On-Demand Picks",
+              "Channels & Add-ons",
               "Cord-cutting",
             ].map((t, i) => (
               <span key={`${k}-${i}`} className="flex items-center gap-6">
@@ -177,13 +175,13 @@ function HomePage() {
               <span className="eyebrow">Chapter 01 · The Stack</span>
               <h2 className="mt-4 font-display text-5xl sm:text-6xl text-ink leading-[1.02] tracking-[-0.025em]">
                 Four ways a modern household{" "}
-                <span className="italic text-primary">gets online.</span>
+                <span className="italic text-primary">streams better.</span>
               </h2>
             </div>
             <div className="lg:col-span-4 flex items-end">
               <p className="text-ink-muted leading-relaxed">
-                Every home builds a stack — pipe, screen, mobile, mesh. Internet in loop indexes each layer
-                separately so you can mix without overpaying.
+                Every home builds a stack — live channels, streaming apps, sports, and the connection that
+                keeps it all smooth. Internet in loop breaks it down so you can mix without overpaying.
               </p>
             </div>
           </div>
@@ -207,9 +205,9 @@ function HomePage() {
               </div>
               <div className="p-8 flex items-start justify-between gap-6">
                 <div>
-                  <h3 className="font-display text-4xl text-ink leading-none">Internet</h3>
+                  <h3 className="font-display text-4xl text-ink leading-none">Streaming & TV</h3>
                   <p className="mt-3 text-ink-muted max-w-md">
-                    Fiber, cable, 5G home and DSL — sorted by tech, translated to real-life use.
+                    Live sports, premium channels, on-demand apps, and the internet plan behind them — ranked for how you really watch.
                   </p>
                 </div>
                 <span className="h-12 w-12 rounded-full bg-ink text-cream grid place-items-center shrink-0 group-hover:bg-primary transition">
@@ -229,8 +227,8 @@ function HomePage() {
                   <Tv className="h-5 w-5" />
                 </div>
                 <div className="mt-8">
-                  <h3 className="font-display text-3xl leading-none">Television</h3>
-                  <p className="mt-2 text-sm opacity-90">Cable, live TV and on-demand.</p>
+                  <h3 className="font-display text-3xl leading-none">Live TV</h3>
+                  <p className="mt-2 text-sm opacity-90">Cable, streaming channels, and sports packages.</p>
                 </div>
                 <div className="mt-6 inline-flex items-center gap-1 mono text-xs uppercase tracking-widest">
                   Read <ArrowRight className="h-3.5 w-3.5" />
@@ -308,22 +306,22 @@ function HomePage() {
                 {
                   n: "01",
                   t: "Drop a ZIP",
-                  d: "We rebuild the plan matrix for your address in seconds — fiber, cable, 5G, DSL, all with real availability.",
+                  d: "We pull every streaming, live TV, and internet option that reaches your address — fiber, cable, 5G, and satellite — sorted in seconds.",
                 },
                 {
                   n: "02",
                   t: "See it in plain English",
-                  d: "Speed tiers translate to real-world scenes — HD movie nights, four-person Zoom days, a house full of gamers.",
+                  d: "Speed tiers and channel counts translate to real-world scenes — HD movie nights, live sports, four-person stream days, a house full of screens.",
                 },
                 {
                   n: "03",
                   t: "Read the trade-offs",
-                  d: "Bundle math, install windows, contract length, upload speed — the fine print that pricing pages bury.",
+                  d: "Bundle math, streaming add-ons, contract length, upload speed — the fine print that provider pricing pages bury.",
                 },
                 {
                   n: "04",
                   t: "Sign on your terms",
-                  d: "You pick. You call the provider. You keep control. We stay off your paperwork.",
+                  d: "You pick the streaming or TV plan. You call the provider. You keep control. We stay off your paperwork.",
                 },
               ].map((s) => (
                 <Reveal key={s.n}>
@@ -613,7 +611,7 @@ function HomePage() {
               },
               {
                 q: "How current is your data?",
-                a: "Availability, tiers and pricing are refreshed against provider feeds. We rebuild the matrix against your ZIP at read-time, so you get what's live — not last month's cache.",
+                a: "Streaming plan availability, channel lineups, and pricing are refreshed against provider feeds regularly. We surface what's live for your ZIP — not outdated cached data.",
               },
               {
                 q: "What if I only need advice?",

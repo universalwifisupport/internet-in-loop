@@ -14,7 +14,7 @@ export function Footer() {
                 // Internet in loop / Field Guide
               </div>
               <h2 className="mt-6 font-display text-6xl sm:text-7xl lg:text-8xl leading-[0.92] tracking-[-0.03em]">
-                Better connection <span className="italic text-signal">stories,</span> start with
+                Better streaming <span className="italic text-signal">choices,</span> start with
                 better questions.
               </h2>
             </div>
@@ -51,8 +51,8 @@ export function Footer() {
               />
             </Link>
             <p className="mt-6 max-w-sm text-sm text-cream/70 leading-relaxed">
-              Internet in loop is an editorial comparison desk for home internet, TV, streaming and mobile
-              — written for households, not sales floors.
+              Internet in loop is an editorial guide for streaming services, live TV, sports packages,
+              premium channels, and the internet that powers them all — written for households, not sales floors.
             </p>
             <div className="mt-8 space-y-2 text-sm text-cream/70">
               <a

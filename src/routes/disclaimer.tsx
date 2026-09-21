@@ -10,7 +10,7 @@ export const Route = createFileRoute("/disclaimer")({
       {
         name: "description",
         content:
-          "Internet in loop is an independent comparison platform. This disclaimer explains what we do and do not do.",
+          "Internet in loop is an independent streaming and entertainment comparison platform. This disclaimer explains what we do and do not do.",
       },
     ],
     links: [{ rel: "canonical", href: "/disclaimer" }],
@@ -28,12 +28,12 @@ function DisclaimerPage() {
       />
       <div className="py-14">
         <LegalContent>
-          <h2>Comparison platform, not a provider</h2>
+          <h2>Streaming comparison platform, not a provider</h2>
           <p>
-            Internet in loop is an independent, consumer-facing comparison platform. We do not own or
-            operate any internet, cable, satellite, streaming or wireless network. Availability,
-            speeds, pricing and terms shown on this site are indexed from information published by
-            participating providers and change frequently.
+            Internet in loop is an independent, consumer-facing comparison platform for streaming,
+            live TV, and connected-home entertainment. We do not own or operate any internet,
+            cable, satellite, streaming, or wireless network. Availability, speeds, pricing, and terms
+            shown on this site are indexed from information published by participating providers and change frequently.
           </p>
           <h2>No affiliation</h2>
           <p>

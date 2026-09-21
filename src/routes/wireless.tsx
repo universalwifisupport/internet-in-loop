@@ -9,16 +9,16 @@ import neighborhood from "@/assets/bl-neighborhood.jpg";
 export const Route = createFileRoute("/wireless")({
   head: () => ({
     meta: [
-      { title: "Wireless — Mobile, 5G Home Internet & Hotspots | Internet in loop" },
+      { title: "Streaming Wireless — Mobile, 5G Home Internet & Hotspots | Internet in loop" },
       {
         name: "description",
         content:
-          "The Internet in loop editorial guide to mobile plans, 5G home internet, hotspots and carrier coverage.",
+          "The Internet in loop guide to mobile plans, 5G home internet, and hotspots for households that want smooth streaming without the signal headaches.",
       },
-      { property: "og:title", content: "Wireless — Internet in loop" },
+      { property: "og:title", content: "Streaming Wireless — Internet in loop" },
       {
         property: "og:description",
-        content: "Compare mobile, 5G home internet, hotspots and coverage.",
+        content: "Compare mobile, 5G home internet, hotspots, and coverage for live TV and streaming.",
       },
       { property: "og:image", content: mobile },
     ],
@@ -33,28 +33,28 @@ const items = [
     tag: "Mobile",
     title: "Phone plans",
     accent: "card-tomato",
-    desc: "Unlimited, family, prepaid and international-friendly plans from participating carriers — compared on data, hotspot allowance and roaming.",
+    desc: "Unlimited, family, prepaid, and international-friendly mobile options from participating carriers — compared on hotspot limits, streaming performance, and roaming value.",
   },
   {
     icon: Signal,
     tag: "5G Home",
     title: "5G home internet",
     accent: "card-mustard",
-    desc: "A cable-free way to bring fast internet into your home. Flat pricing, no installer visit, self-install in minutes.",
+    desc: "A cable-free way to bring streaming power into your home. Flat pricing, no installer visit, and easy self-install for households that want speed without setup friction.",
   },
   {
     icon: Wifi,
     tag: "Hotspots",
     title: "Mobile hotspots",
     accent: "card-paper",
-    desc: "Stay online at the cabin, on the road, during outages. Compared on data caps, speed and coverage.",
+    desc: "Stay online at the cabin, on the road, or during an outage. We compare data caps, speed, and reliability for streaming and work on the move.",
   },
   {
     icon: MapPin,
     tag: "Coverage",
     title: "Coverage maps",
     accent: "card-sage",
-    desc: "Wireless is only as good as the signal at your address. Cross-check carrier maps for home, work and travel.",
+    desc: "Wireless is only as good as the signal at your address. Cross-check carrier maps for your home, work commute, and travel routes before you commit.",
   },
 ];
 
@@ -62,9 +62,9 @@ function WirelessPage() {
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="Section 03 · Wireless"
-        title="Mobile, 5G and hotspots — compared by the signal at your door."
-        subtitle="Coverage is local. Internet in loop weighs carriers against where you actually live, work and travel."
+        eyebrow="Section 03 · Streaming Wireless"
+        title="Mobile, 5G, and hotspots — built for a smoother stream."
+        subtitle="Coverage is local. Internet in loop weighs carriers against where you actually live, work, travel, and stream most often."
         bgImage={mobile}
       />
 
@@ -113,9 +113,8 @@ function WirelessPage() {
                 Coverage first. <span className="italic text-primary">Price second.</span>
               </h2>
               <p className="mt-6 text-ink-muted leading-relaxed max-w-md">
-                The cheapest carrier isn't a bargain if the signal drops in your kitchen. Every
-                wireless recommendation Internet in loop publishes starts with an address-level coverage
-                check.
+                The cheapest carrier isn't a bargain if your streaming apps buffer in the kitchen. Every
+                wireless recommendation Internet in loop publishes starts with an address-level coverage check.
               </p>
             </div>
             <div className="lg:col-span-7 grid sm:grid-cols-2 gap-4">

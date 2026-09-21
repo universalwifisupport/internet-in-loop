@@ -9,14 +9,14 @@ import hero from "@/assets/bl-hero.jpg";
 export const Route = createFileRoute("/home-connectivity")({
   head: () => ({
     meta: [
-      { title: "Home Wi-Fi — Routers, Mesh & Smart Home | Internet in loop" },
+      { title: "Streaming Wi‑Fi — Routers, Mesh & Smart Home | Internet in loop" },
       {
         name: "description",
         content:
-          "Wi-Fi 6, Wi-Fi 7, mesh networks and smart-home bandwidth — Internet in loop's plain-English guide.",
+          "Wi‑Fi 6, Wi‑Fi 7, mesh networking, and smart-home bandwidth — the Internet in loop guide for households that stream, game, and connect all day.",
       },
-      { property: "og:title", content: "Home Wi-Fi — Internet in loop" },
-      { property: "og:description", content: "Wi-Fi 6/7, mesh and smart-home guides." },
+      { property: "og:title", content: "Streaming Wi‑Fi — Internet in loop" },
+      { property: "og:description", content: "Wi‑Fi 6/7, mesh, and smart-home streaming guides." },
       { property: "og:image", content: desk },
     ],
     links: [{ rel: "canonical", href: "/home-connectivity" }],
@@ -28,9 +28,9 @@ function HomeConnectivityPage() {
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="Section 04 · Home Wi-Fi"
-        title="The last ten meters matter more than the first ten miles."
-        subtitle="Your router is the bottleneck for most home internet issues. These guides help you fix that first."
+        eyebrow="Section 04 · Streaming Wi‑Fi"
+        title="The last ten meters decide whether your stream feels smooth."
+        subtitle="Your router is the bottleneck for most home entertainment issues. These guides help you fix that first so every stream stays sharp."
         bgImage={desk}
       />
 
@@ -45,9 +45,9 @@ function HomeConnectivityPage() {
                   Pick the right radio.
                 </h2>
                 <p className="mt-4 opacity-90 max-w-md leading-relaxed">
-                  Wi-Fi 6 (802.11ax) delivers dense-network throughput perfect for apartments and
-                  family homes. Wi-Fi 7 (802.11be) opens the 6 GHz band — future-proof if your ISP
-                  delivers multi-gig speeds.
+                  Wi‑Fi 6 (802.11ax) delivers strong throughput for apartments and family homes with lots
+                  of streaming devices. Wi‑Fi 7 (802.11be) opens the 6 GHz band for faster, lower-latency
+                  performance when your internet plan is built for multi-screen entertainment.
                 </p>
               </div>
               <ul className="mt-8 space-y-3">
@@ -114,7 +114,7 @@ function HomeConnectivityPage() {
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="eyebrow justify-center">Bandwidth Budget</span>
             <h2 className="mt-4 font-display text-5xl text-ink leading-[1.02] tracking-[-0.025em]">
-              How much a modern home <span className="italic text-primary">actually eats.</span>
+              How much a modern home <span className="italic text-primary">actually streams.</span>
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">

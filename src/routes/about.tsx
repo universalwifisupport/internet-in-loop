@@ -9,16 +9,16 @@ import neighborhood from "@/assets/bl-neighborhood.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Internet in loop — An Editorial Desk for Home Connectivity" },
+      { title: "About Internet in loop — Streaming TV & Entertainment Guide" },
       {
         name: "description",
         content:
-          "Internet in loop is an independent editorial comparison desk. Our mission: help households make sharper connectivity decisions without the sales pressure.",
+          "Internet in loop is an independent editorial guide for streaming platforms, live TV, and connected home entertainment — built to help households choose smarter without the sales pressure.",
       },
       { property: "og:title", content: "About Internet in loop" },
       {
         property: "og:description",
-        content: "An independent editorial desk for home connectivity.",
+        content: "An independent editorial guide for streaming, live TV, and entertainment.",
       },
       { property: "og:image", content: advisor },
     ],
@@ -32,8 +32,8 @@ function AboutPage() {
     <SiteLayout>
       <PageHero
         eyebrow="About Internet in loop"
-        title="An editorial desk for how you get online."
-        subtitle="Launched in 2026 with one job — cut through provider marketing and give households the information they need to choose well."
+        title="An editorial desk for how your home actually watches."
+        subtitle="Launched in 2026 with one job — cut through provider marketing and help households choose the best stream, channel package, and internet setup for their lifestyle."
         bgImage={advisor}
       />
 
@@ -47,13 +47,14 @@ function AboutPage() {
                 We compare. <span className="italic text-primary">We don't sell.</span>
               </h2>
               <p className="mt-6 text-ink-muted leading-relaxed max-w-xl">
-                Internet in loop is an independent editorial comparison platform. We index plans,
-                technologies and coverage from participating internet, television and wireless
-                providers, then present them in a way ordinary households can actually read.
+                Internet in loop is an independent editorial guide for streaming platforms, live TV,
+                sports packages, smart-home entertainment, and the internet connection that keeps it all
+                smooth. We index the options and translate them into plain language for everyday households.
               </p>
               <p className="mt-4 text-ink-muted leading-relaxed max-w-xl">
-                We do not own network infrastructure. We do not sign contracts on your behalf. Every
-                recommendation ends with you talking directly to a provider you chose.
+                We do not own cable lines, app libraries, or provider networks. We do not sign contracts
+                on your behalf. Every recommendation ends with you choosing the service, package, or setup
+                that best matches your home.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link to="/contact" className="btn-accent">

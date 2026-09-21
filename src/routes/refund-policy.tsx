@@ -10,7 +10,7 @@ export const Route = createFileRoute("/refund-policy")({
       {
         name: "description",
         content:
-          "Internet in loop refund policy for independent third-party service assistance. Eligibility, timelines and how to request a refund.",
+          "Internet in loop refund policy for independent third-party entertainment and streaming service assistance. Eligibility, timelines, and how to request a refund.",
       },
       { property: "og:title", content: "Refund Policy — Internet in loop" },
       { property: "og:url", content: "/refund-policy" },
@@ -31,9 +31,9 @@ function RefundPolicyPage() {
       <LegalContent>
         <h2>1. Overview</h2>
         <p>
-          Internet in loop is an independent third-party assistance platform. We charge a
-          service/assistance fee for informational guidance. This Refund Policy explains when and
-          how you may request a refund of that fee.
+          Internet in loop is an independent third-party assistance platform for streaming,
+          live TV, and connected-home entertainment guidance. We charge a service/assistance fee
+          for informational guidance. This Refund Policy explains when and how you may request a refund of that fee.
         </p>
 
         <h2>2. General Refund Window</h2>

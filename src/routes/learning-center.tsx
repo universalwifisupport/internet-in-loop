@@ -12,16 +12,16 @@ import hero from "@/assets/bl-hero.jpg";
 export const Route = createFileRoute("/learning-center")({
   head: () => ({
     meta: [
-      { title: "The Journal — Fiber, Cable, 5G, Wi-Fi Explained | Internet in loop" },
+      { title: "The Journal — Streaming, Wi‑Fi & Entertainment Explained | Internet in loop" },
       {
         name: "description",
         content:
-          "Plain-English editorial guides to internet technologies, streaming platforms, wireless carriers and home Wi-Fi.",
+          "Plain-English editorial guides to streaming services, live TV, Wi‑Fi performance, and home entertainment setups.",
       },
       { property: "og:title", content: "Internet in loop Journal" },
       {
         property: "og:description",
-        content: "Editorial guides for smarter connectivity decisions.",
+        content: "Editorial guides for smarter streaming and connected-home decisions.",
       },
       { property: "og:image", content: fiber },
     ],
@@ -34,42 +34,42 @@ const articles = [
   {
     topic: "Internet",
     read: "6 min",
-    title: "Fiber vs cable: which one actually wins?",
+    title: "Fiber vs cable: which one keeps your streams smoothest?",
     img: fiber,
     size: "lg",
   },
   {
-    topic: "Wi-Fi",
+    topic: "Wi‑Fi",
     read: "5 min",
-    title: "Wi-Fi 6 vs Wi-Fi 7 in plain English.",
+    title: "Wi‑Fi 6 vs Wi‑Fi 7 in plain English for streamers.",
     img: desk,
     size: "md",
   },
   {
     topic: "Streaming",
     read: "8 min",
-    title: "Cutting cable without losing the sports.",
+    title: "Cutting cable without losing the sports and live channels.",
     img: tv,
     size: "md",
   },
   {
     topic: "Wireless",
     read: "4 min",
-    title: "How 5G home internet really works.",
+    title: "How 5G home internet works for streaming households.",
     img: mobile,
     size: "md",
   },
   {
     topic: "Coverage",
     read: "7 min",
-    title: "Reading coverage maps like a technician.",
+    title: "Reading coverage maps like a streaming setup expert.",
     img: neighborhood,
     size: "md",
   },
   {
     topic: "Households",
     read: "10 min",
-    title: "The 2026 anatomy of a connected family.",
+    title: "The 2026 anatomy of a connected home entertainment setup.",
     img: hero,
     size: "lg",
   },
@@ -80,8 +80,8 @@ function JournalPage() {
     <SiteLayout>
       <PageHero
         eyebrow="The Journal"
-        title="Read once. Decide with clarity."
-        subtitle="Short, plain-English editorial on how modern internet, TV and wireless actually work — so pricing pages stop feeling like a foreign language."
+        title="Read once. Build a better stream setup."
+        subtitle="Short, plain-English editorial on how modern streaming, live TV, Wi‑Fi, and wireless actually work — so pricing pages stop feeling like a foreign language."
         bgImage={fiber}
       />
 

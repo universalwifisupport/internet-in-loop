@@ -60,18 +60,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Internet in loop — The Editorial Guide to Home Internet, TV & Wireless" },
+      { title: "Internet in loop — Streaming, Live TV & Entertainment Guide" },
       {
         name: "description",
         content:
-          "Internet in loop is an editorial comparison desk for home internet, TV, streaming and wireless. Plain-English guides, ZIP-scoped picks, no pressure.",
+          "Internet in loop helps households compare streaming services, live TV bundles, and connected home entertainment without the sales pressure.",
       },
       { name: "theme-color", content: "#f6f1e8" },
-      { property: "og:title", content: "Internet in loop — Editorial Guide to Home Connectivity" },
+      { property: "og:title", content: "Internet in loop — Streaming & TV Guide" },
       {
         property: "og:description",
         content:
-          "Compare fiber, cable, 5G home internet, streaming and mobile — from participating providers, written for households.",
+          "Compare streaming platforms, live TV plans, sports packages, and connected-home entertainment — written for real households.",
       },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Internet in loop" },

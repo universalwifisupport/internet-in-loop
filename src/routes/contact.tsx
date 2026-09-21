@@ -7,16 +7,16 @@ import advisor from "@/assets/bl-advisor.jpg";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Internet in loop — ZIP Availability Check & Guide Line" },
+      { title: "Contact Internet in loop — Streaming & TV Setup Help" },
       {
         name: "description",
         content:
-          "Reach a Internet in loop editor, run a ZIP-level availability check, or send a message. We answer in under four minutes.",
+          "Reach an Internet in loop editor for a streaming setup, live TV package comparison, or device-and-bundle recommendation. We answer in under four minutes.",
       },
       { property: "og:title", content: "Contact Internet in loop" },
       {
         property: "og:description",
-        content: "ZIP check, phone line and email — reach a human editor fast.",
+        content: "Streaming stacks, live TV plans, and entertainment bundles — talk to a human editor fast.",
       },
       { property: "og:image", content: advisor },
     ],
@@ -30,8 +30,8 @@ function ContactPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Contact"
-        title="Talk to a person. Not a portal."
-        subtitle="Get a ZIP-level scan, or pick up the phone. Either way, you'll be talking to someone who knows the plans in your area."
+        title="Talk to a person about your stream setup."
+        subtitle="Need help comparing live TV, sports packages, or streaming bundles? Reach a real editor who can walk you through the right setup for your home."
         bgImage={advisor}
       />
 
@@ -42,12 +42,12 @@ function ContactPage() {
             <div className="lg:col-span-7 card-paper p-8 sm:p-12">
               <span className="eyebrow">01 · ZIP scan</span>
               <h2 className="mt-4 font-display text-4xl text-ink leading-tight tracking-[-0.02em]">
-                Which technologies reach <span className="italic text-primary">your address?</span>
+                Which streaming setup fits <span className="italic text-primary">your home?</span>
               </h2>
               <form className="mt-8 space-y-5" onSubmit={(e) => e.preventDefault()}>
                 <div>
                   <label className="mono text-[10px] tracking-widest uppercase text-ink-muted">
-                    ZIP code
+                    ZIP code / service area
                   </label>
                   <input
                     placeholder="e.g. 30301"
@@ -79,7 +79,7 @@ function ContactPage() {
                     Interested in
                   </label>
                   <div className="mt-2 grid grid-cols-2 sm:grid-cols-4 gap-2">
-                    {["Internet", "TV", "Wireless", "Bundle"].map((t) => (
+                    {["Streaming", "Live TV", "Internet", "Bundle"].map((t) => (
                       <label
                         key={t}
                         className="cursor-pointer rounded-full border border-border px-4 py-3 text-center text-sm font-medium hover:bg-primary hover:text-cream hover:border-primary transition"

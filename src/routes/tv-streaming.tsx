@@ -9,16 +9,16 @@ import hero from "@/assets/bl-hero.jpg";
 export const Route = createFileRoute("/tv-streaming")({
   head: () => ({
     meta: [
-      { title: "TV & Streaming — Cable vs Live TV vs On-Demand | Internet in loop" },
+      { title: "TV & Streaming — Cable, Live TV & On-Demand Guide | Internet in loop" },
       {
         name: "description",
         content:
-          "The Internet in loop editorial guide to cable, live TV streaming and on-demand — build a watch stack for how you actually watch.",
+          "The Internet in loop guide to cable, live TV streaming and on-demand services — build a watch stack that fits your home.",
       },
       { property: "og:title", content: "TV & Streaming — Internet in loop" },
       {
         property: "og:description",
-        content: "Cable, satellite, live TV and on-demand — compared.",
+        content: "Cable, live TV, sports packages, and on-demand platforms — compared plainly.",
       },
       { property: "og:image", content: tv },
     ],
@@ -71,9 +71,9 @@ function TvPage() {
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="Section 02 · Television"
-        title="Cable, satellite or streaming — the shortest path to a good watch."
-        subtitle="Compare classic cable lineups, live-TV streaming and on-demand platforms without the sales pitch."
+        eyebrow="Section 02 · Streaming TV"
+        title="Build the watch stack that fits your life — without overspending."
+        subtitle="Compare live TV services, on-demand subscriptions, cable bundles, and sports packages without getting trapped in a sales pitch."
         bgImage={tv}
       />
 
