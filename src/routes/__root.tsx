@@ -109,6 +109,24 @@ gtag('js', new Date());
 gtag('config', 'AW-17865495674');`,
           }}
         />
+        {/* Event snippet for Purchase conversion page */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17865495674/uY4TCO_Lg40dEPqo98ZC',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}`,
+          }}
+        />
       </head>
       <body>
         {children}
