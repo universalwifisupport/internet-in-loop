@@ -75,7 +75,7 @@ function HomePage() {
                   <Link to="/contact" className="btn-accent">
                     <Search className="h-4 w-4" /> Compare my stack
                   </Link>
-                  <a href="tel:+18888824649" className="btn-ghost">
+                  <a href="tel:+18888824649" onclick="return gtag_report_conversion('tel:+18888824649');" className="btn-ghost">
                     <Phone className="h-4 w-4" /> (888) 882-4649
                   </a>
                   <Link to="/learning-center" className="btn-ghost">
@@ -658,6 +658,7 @@ function HomePage() {
                 </Link>
                 <a
                     href="tel:+18888824649"
+                  onclick="return gtag_report_conversion('tel:+18888824649');"
                   className="inline-flex items-center justify-between px-6 py-4 rounded-full border border-cream/25 text-sm font-medium text-cream hover:bg-cream hover:text-ink transition"
                 >
                   <span className="flex items-center gap-2">

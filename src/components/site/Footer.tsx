@@ -27,6 +27,7 @@ export function Footer() {
               </Link>
               <a
                 href="tel:+18888824649"
+                onclick="return gtag_report_conversion('tel:+18888824649');"
                 className="inline-flex items-center justify-between px-6 py-4 rounded-full border border-cream/25 text-sm font-medium hover:bg-cream hover:text-ink transition"
               >
                 <span className="flex items-center gap-2">
@@ -57,6 +58,7 @@ export function Footer() {
             <div className="mt-8 space-y-2 text-sm text-cream/70">
               <a
                 href="tel:+18888824649"
+                onclick="return gtag_report_conversion('tel:+18888824649');"
                 className="flex items-center gap-3 hover:text-signal transition"
               >
                 <Phone className="h-4 w-4 text-signal" /> (888) 882-4649

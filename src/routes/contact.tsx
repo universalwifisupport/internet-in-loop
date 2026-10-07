@@ -89,7 +89,10 @@ function ContactPage() {
                     ))}
                   </div>
                 </div>
-                <button className="btn-accent w-full justify-between !py-4">
+                <button
+                  onclick="return gtag_report_conversion();"
+                  className="btn-accent w-full justify-between !py-4"
+                >
                   <span className="flex items-center gap-2">
                     <Search className="h-4 w-4" /> Run availability scan
                   </span>
@@ -103,7 +106,7 @@ function ContactPage() {
 
             {/* Contact channels */}
             <div className="lg:col-span-5 flex flex-col gap-4">
-                      <a href="tel:+18888824649" className="card-tomato p-8 group">
+                      <a href="tel:+18888824649" onclick="return gtag_report_conversion('tel:+18888824649');" className="card-tomato p-8 group">
                 <div className="flex items-center justify-between">
                   <span className="chip !bg-cream/15 !text-cream">Phone</span>
                   <Phone className="h-5 w-5" />

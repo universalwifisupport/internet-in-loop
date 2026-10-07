@@ -155,6 +155,7 @@ function HomeConnectivityPage() {
               </Link>
               <a
                 href="tel:+18888824649"
+                onclick="return gtag_report_conversion('tel:+18888824649');"
                 className="inline-flex items-center justify-between px-6 py-4 rounded-full border border-cream/30 text-sm font-medium text-cream hover:bg-cream hover:text-ink transition"
               >
                 <span className="flex items-center gap-2">
