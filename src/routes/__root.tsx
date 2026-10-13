@@ -100,13 +100,13 @@ function RootShell({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17865495674"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18500496378"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'AW-17865495674');`,
+gtag('config', 'AW-18500496378');`,
           }}
         />
         {/* Event snippet for Purchase conversion page */}
@@ -119,7 +119,7 @@ gtag('config', 'AW-17865495674');`,
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-17865495674/uY4TCO_Lg40dEPqo98ZC',
+      'send_to': 'AW-18500496378',
       'transaction_id': '',
       'event_callback': callback
   });

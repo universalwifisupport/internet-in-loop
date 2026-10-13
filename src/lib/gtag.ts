@@ -6,7 +6,7 @@ declare global {
   }
 }
 
-export const GOOGLE_ADS_CONVERSION_ID = "AW-17865495674/uY4TCO_Lg40dEPqo98ZC";
+export const GOOGLE_ADS_CONVERSION_ID = "AW-18500496378";
 
 /**
  * Mirrors Google's "Event snippet for Purchase conversion page".
