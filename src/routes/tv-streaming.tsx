@@ -9,16 +9,16 @@ import hero from "@/assets/bl-hero.jpg";
 export const Route = createFileRoute("/tv-streaming")({
   head: () => ({
     meta: [
-      { title: "TV & Streaming — Cable, Live TV & On-Demand Guide | Internet in loop" },
+      { title: "TV & Streaming - Cable, Live TV & On-Demand Guide | Internet in loop" },
       {
         name: "description",
         content:
-          "The Internet in loop guide to cable, live TV streaming and on-demand services — build a watch stack that fits your home.",
+          "The Internet in loop guide to cable, live TV streaming and on-demand services - build a watch stack that fits your home.",
       },
-      { property: "og:title", content: "TV & Streaming — Internet in loop" },
+      { property: "og:title", content: "TV & Streaming - Internet in loop" },
       {
         property: "og:description",
-        content: "Cable, live TV, sports packages, and on-demand platforms — compared plainly.",
+        content: "Cable, live TV, sports packages, and on-demand platforms - compared plainly.",
       },
       { property: "og:image", content: tv },
     ],
@@ -46,7 +46,7 @@ const options = [
     tag: "Live TV Streaming",
     title: "Live TV over the internet",
     accent: "card-mustard",
-    desc: "Cloud-based live TV — no installer visit. Multi-device, cloud DVR, month-to-month.",
+    desc: "Cloud-based live TV - no installer visit. Multi-device, cloud DVR, month-to-month.",
     facts: ["Zero install", "Cloud DVR", "Multi-device", "Cancel monthly"],
   },
   {
@@ -62,7 +62,7 @@ const options = [
     tag: "Satellite",
     title: "Satellite TV",
     accent: "card-sage",
-    desc: "A rural workhorse — wide coverage, strong sports packages, HD/4K when cable and fiber haven't arrived.",
+    desc: "A rural workhorse - wide coverage, strong sports packages, HD/4K when cable and fiber haven't arrived.",
     facts: ["Rural coverage", "Sports-heavy", "HD & 4K channels", "Optional add-ons"],
   },
 ];
@@ -72,7 +72,7 @@ function TvPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Section 02 · Streaming TV"
-        title="Build the watch stack that fits your life — without overspending."
+        title="Build the watch stack that fits your life - without overspending."
         subtitle="Compare live TV services, on-demand subscriptions, cable bundles, and sports packages without getting trapped in a sales pitch."
         bgImage={tv}
       />
@@ -116,7 +116,7 @@ function TvPage() {
         </div>
       </section>
 
-      {/* Ledger — cable vs streaming */}
+      {/* Ledger - cable vs streaming */}
       <section className="py-24 bg-secondary">
         <div className="mx-auto max-w-[1200px] px-4 sm:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14">
@@ -170,14 +170,14 @@ function TvPage() {
             <p className="mt-5 text-ink-muted leading-relaxed max-w-xl">
               More than 70% of U.S. households now blend at least one streaming service with a
               traditional TV subscription. The Internet in loop editorial helps you draft the right
-              combination — sports plus on-demand, live news plus a family library.
+              combination - sports plus on-demand, live news plus a family library.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link to="/contact" className="btn-accent">
                 Build my watch stack <ArrowUpRight className="h-4 w-4" />
               </Link>
-                <a href="tel:+18888824649" onclick="return gtag_report_conversion('tel:+18888824649');" className="btn-ghost">
-                  <Phone className="h-4 w-4" /> (888) 882-4649
+                <a href="tel:+18338211859" onclick="return gtag_report_conversion('tel:+18338211859');" className="btn-ghost">
+                  <Phone className="h-4 w-4" /> (833) 821-1859
               </a>
             </div>
           </div>

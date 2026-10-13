@@ -7,7 +7,7 @@ import advisor from "@/assets/bl-advisor.jpg";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Internet in loop — Streaming & TV Setup Help" },
+      { title: "Contact Internet in loop - Streaming & TV Setup Help" },
       {
         name: "description",
         content:
@@ -16,7 +16,7 @@ export const Route = createFileRoute("/contact")({
       { property: "og:title", content: "Contact Internet in loop" },
       {
         property: "og:description",
-        content: "Streaming stacks, live TV plans, and entertainment bundles — talk to a human editor fast.",
+        content: "Streaming stacks, live TV plans, and entertainment bundles - talk to a human editor fast.",
       },
       { property: "og:image", content: advisor },
     ],
@@ -106,12 +106,12 @@ function ContactPage() {
 
             {/* Contact channels */}
             <div className="lg:col-span-5 flex flex-col gap-4">
-                      <a href="tel:+18888824649" onclick="return gtag_report_conversion('tel:+18888824649');" className="card-tomato p-8 group">
+                      <a href="tel:+18338211859" onclick="return gtag_report_conversion('tel:+18338211859');" className="card-tomato p-8 group">
                 <div className="flex items-center justify-between">
                   <span className="chip !bg-cream/15 !text-cream">Phone</span>
                   <Phone className="h-5 w-5" />
                 </div>
-                <div className="mt-6 font-display text-3xl mono">(888) 882-4649</div>
+                <div className="mt-6 font-display text-3xl mono">(833) 821-1859</div>
                 <div className="mt-2 text-sm opacity-90">Mon–Sat · 8 AM – 9 PM ET</div>
                 <div className="mt-4 inline-flex items-center gap-1 mono text-xs uppercase tracking-widest">
                   Call now <ArrowUpRight className="h-3.5 w-3.5" />

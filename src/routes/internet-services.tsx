@@ -10,14 +10,14 @@ import desk from "@/assets/bl-desk.jpg";
 export const Route = createFileRoute("/internet-services")({
   head: () => ({
     meta: [
-      { title: "Streaming Internet — Fiber, Cable, 5G & DSL Compared | Internet in loop" },
+      { title: "Streaming Internet - Fiber, Cable, 5G & DSL Compared | Internet in loop" },
       {
         name: "description",
         content:
-          "An editorial comparison of internet options for streaming homes — fiber, cable, 5G, and DSL translated into smooth-streaming performance, not brochure language.",
+          "An editorial comparison of internet options for streaming homes - fiber, cable, 5G, and DSL translated into smooth-streaming performance, not brochure language.",
       },
-      { property: "og:title", content: "Streaming Internet Guide — Internet in loop" },
-      { property: "og:description", content: "Fiber, cable, 5G and DSL for HD, 4K, and live-streaming homes — plain English." },
+      { property: "og:title", content: "Streaming Internet Guide - Internet in loop" },
+      { property: "og:description", content: "Fiber, cable, 5G and DSL for HD, 4K, and live-streaming homes - plain English." },
       { property: "og:image", content: fiber },
     ],
     links: [{ rel: "canonical", href: "/internet-services" }],
@@ -59,7 +59,7 @@ const techs = [
     title: "DSL & Fixed Wireless",
     accent: "card-sage",
     desc: "Phone-line or tower-based connections. Not glamorous, but still useful for rural homes and backup streams where cable or fiber has not reached yet.",
-    tiers: ["25 Mbps", "50 Mbps", "100 Mbps", "—"],
+    tiers: ["25 Mbps", "50 Mbps", "100 Mbps"],
     best: "Rural households, cabins, and homes that need a basic stream-safe fallback.",
   },
 ];
@@ -74,7 +74,7 @@ function InternetPage() {
         bgImage={fiber}
       />
 
-      {/* Vertical editorial cards — big, magazine-column layout */}
+      {/* Vertical editorial cards - big, magazine-column layout */}
       <section className="py-16 sm:py-20">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8">
           <div className="grid md:grid-cols-2 gap-6">
@@ -127,7 +127,7 @@ function InternetPage() {
         </div>
       </section>
 
-      {/* Speed decoder — inline pill row */}
+      {/* Speed decoder - inline pill row */}
       <section className="py-20 bg-secondary">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8">
           <div className="text-center max-w-2xl mx-auto">
@@ -161,7 +161,7 @@ function InternetPage() {
         </div>
       </section>
 
-      {/* Editorial split — text over image */}
+      {/* Editorial split - text over image */}
       <section className="py-24">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8 grid lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6">
@@ -187,10 +187,10 @@ function InternetPage() {
             </p>
             <ul className="mt-6 space-y-3 text-ink">
               {[
-                "Upload speed — the number that keeps a live stream or video call stable",
-                "Latency — the number that matters for gaming and lag-free playback",
-                "Data caps — the number nobody advertises but every streaming household notices",
-                "Post-promo pricing — the number your monthly bill actually becomes",
+                "Upload speed - the number that keeps a live stream or video call stable",
+                "Latency - the number that matters for gaming and lag-free playback",
+                "Data caps - the number nobody advertises but every streaming household notices",
+                "Post-promo pricing - the number your monthly bill actually becomes",
               ].map((p) => (
                 <li key={p} className="flex items-start gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
@@ -212,7 +212,7 @@ function InternetPage() {
                 Get a plan matrix for your ZIP.
               </h2>
               <p className="mt-4 text-cream/70 max-w-lg">
-                Enter one ZIP. See every internet technology that reaches your address — with a
+                Enter one ZIP. See every internet technology that reaches your address - with a
                 Internet in loop editor on the line if you want one.
               </p>
             </div>
@@ -224,12 +224,12 @@ function InternetPage() {
                 Compare in my ZIP <ArrowUpRight className="h-4 w-4" />
               </Link>
               <a
-                href="tel:+18888824649"
-                onclick="return gtag_report_conversion('tel:+18888824649');"
+                href="tel:+18338211859"
+                onclick="return gtag_report_conversion('tel:+18338211859');"
                 className="inline-flex items-center justify-between px-6 py-4 rounded-full border border-cream/25 text-sm font-medium text-cream hover:bg-cream hover:text-ink transition"
               >
                 <span className="flex items-center gap-2">
-                  <Phone className="h-4 w-4" /> (888) 882-4649
+                  <Phone className="h-4 w-4" /> (833) 821-1859
                 </span>
                 <ArrowRight className="h-4 w-4" />
               </a>

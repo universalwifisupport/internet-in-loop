@@ -9,13 +9,13 @@ import hero from "@/assets/bl-hero.jpg";
 export const Route = createFileRoute("/home-connectivity")({
   head: () => ({
     meta: [
-      { title: "Streaming Wi‑Fi — Routers, Mesh & Smart Home | Internet in loop" },
+      { title: "Streaming Wi-Fi - Routers, Mesh & Smart Home | Internet in loop" },
       {
         name: "description",
         content:
-          "Wi‑Fi 6, Wi‑Fi 7, mesh networking, and smart-home bandwidth — the Internet in loop guide for households that stream, game, and connect all day.",
+          "Wi-Fi 6, Wi-Fi 7, mesh networking, and smart-home bandwidth - the Internet in loop guide for households that stream, game, and connect all day.",
       },
-      { property: "og:title", content: "Streaming Wi‑Fi — Internet in loop" },
+      { property: "og:title", content: "Streaming Wi-Fi - Internet in loop" },
       { property: "og:description", content: "Wi‑Fi 6/7, mesh, and smart-home streaming guides." },
       { property: "og:image", content: desk },
     ],
@@ -154,12 +154,12 @@ function HomeConnectivityPage() {
                 Read the Wi-Fi primer <ArrowUpRight className="h-4 w-4" />
               </Link>
               <a
-                href="tel:+18888824649"
-                onclick="return gtag_report_conversion('tel:+18888824649');"
+                href="tel:+18338211859"
+                onclick="return gtag_report_conversion('tel:+18338211859');"
                 className="inline-flex items-center justify-between px-6 py-4 rounded-full border border-cream/30 text-sm font-medium text-cream hover:bg-cream hover:text-ink transition"
               >
                 <span className="flex items-center gap-2">
-                  <Phone className="h-4 w-4" /> (888) 882-4649
+                  <Phone className="h-4 w-4" /> (833) 821-1859
                 </span>
                 <ArrowRight className="h-4 w-4" />
               </a>

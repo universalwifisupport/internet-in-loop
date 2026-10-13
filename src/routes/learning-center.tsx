@@ -12,7 +12,7 @@ import hero from "@/assets/bl-hero.jpg";
 export const Route = createFileRoute("/learning-center")({
   head: () => ({
     meta: [
-      { title: "The Journal — Streaming, Wi‑Fi & Entertainment Explained | Internet in loop" },
+      { title: "The Journal - Streaming, Wi‑Fi & Entertainment Explained | Internet in loop" },
       {
         name: "description",
         content:
@@ -81,7 +81,7 @@ function JournalPage() {
       <PageHero
         eyebrow="The Journal"
         title="Read once. Build a better stream setup."
-        subtitle="Short, plain-English editorial on how modern streaming, live TV, Wi‑Fi, and wireless actually work — so pricing pages stop feeling like a foreign language."
+        subtitle="Short, plain-English editorial on how modern streaming, live TV, Wi-Fi, and wireless actually work - so pricing pages stop feeling like a foreign language."
         bgImage={fiber}
       />
 

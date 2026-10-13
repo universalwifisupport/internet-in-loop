@@ -12,7 +12,7 @@ export const Route = createFileRoute("/refund-policy")({
         content:
           "Internet in loop refund policy for independent third-party entertainment and streaming service assistance. Eligibility, timelines, and how to request a refund.",
       },
-      { property: "og:title", content: "Refund Policy — Internet in loop" },
+      { property: "og:title", content: "Refund Policy - Internet in loop" },
       { property: "og:url", content: "/refund-policy" },
     ],
     links: [{ rel: "canonical", href: "/refund-policy" }],
@@ -77,7 +77,7 @@ function RefundPolicyPage() {
         <p>
           To request a refund, email us at{" "}
           <a href="mailto:support@internetinloop.com">support@internetinloop.com</a> or call{" "}
-          <a href="tel:+18888824649">(888) 882-4649</a> with your name, date of purchase, and reason
+          <a href="tel:+18338211859">(833) 821-1859</a> with your name, date of purchase, and reason
           for the request. We aim to respond within 2 business days.
         </p>
 
@@ -106,7 +106,7 @@ function RefundPolicyPage() {
         <p>
           For questions about this Refund Policy, reach us at{" "}
           <a href="mailto:support@internetinloop.com">support@internetinloop.com</a> or call{" "}
-          <a href="tel:+18888824649">(888) 882-4649</a>.
+          <a href="tel:+18338211859">(833) 821-1859</a>.
         </p>
       </LegalContent>
     </SiteLayout>

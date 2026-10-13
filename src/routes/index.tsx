@@ -24,17 +24,17 @@ import mobile from "@/assets/bl-mobile.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Internet in loop — Streaming, Live TV & Entertainment Guide" },
+      { title: "Internet in loop - Streaming, Live TV & Entertainment Guide" },
       {
         name: "description",
         content:
           "Internet in loop helps households compare streaming services, live TV bundles, and entertainment plans without the sales pressure.",
       },
-      { property: "og:title", content: "Internet in loop — Streaming & TV Guide" },
+      { property: "og:title", content: "Internet in loop - Streaming & TV Guide" },
       {
         property: "og:description",
         content:
-          "Compare streaming platforms, live TV bundles, sports packages, and connected-home entertainment — written for real households.",
+          "Compare streaming platforms, live TV bundles, sports packages, and connected-home entertainment - written for real households.",
       },
       { property: "og:url", content: "/" },
       { property: "og:image", content: hero },
@@ -48,7 +48,7 @@ export const Route = createFileRoute("/")({
 function HomePage() {
   return (
     <SiteLayout>
-      {/* ═══ 01 · HERO — asymmetric editorial cover ═══ */}
+      {/* ═══ 01 · HERO - asymmetric editorial cover ═══ */}
       <section className="relative pt-28 pb-16 sm:pt-32">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8">
           <div className="grid lg:grid-cols-12 gap-8 items-end">
@@ -75,8 +75,8 @@ function HomePage() {
                   <Link to="/contact" className="btn-accent">
                     <Search className="h-4 w-4" /> Compare my stack
                   </Link>
-                  <a href="tel:+18888824649" onclick="return gtag_report_conversion('tel:+18888824649');" className="btn-ghost">
-                    <Phone className="h-4 w-4" /> (888) 882-4649
+                  <a href="tel:+18338211859" onclick="return gtag_report_conversion('tel:+18338211859');" className="btn-ghost">
+                    <Phone className="h-4 w-4" /> (833) 821-1859
                   </a>
                   <Link to="/learning-center" className="btn-ghost">
                     Browse the Journal <ArrowRight className="h-4 w-4" />
@@ -160,14 +160,14 @@ function HomePage() {
               "Cord-cutting",
             ].map((t, i) => (
               <span key={`${k}-${i}`} className="flex items-center gap-6">
-                <span className="text-signal">●</span> {t}
+                <span className="text-signal">�-�</span> {t}
               </span>
             )),
           )}
         </div>
       </section>
 
-      {/* ═══ 03 · WHAT WE INDEX — 4 category tiles, asymmetric ═══ */}
+      {/* ═══ 03 · WHAT WE INDEX - 4 category tiles, asymmetric ═══ */}
       <section className="relative py-24">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8">
           <div className="grid lg:grid-cols-12 gap-8 mb-14">
@@ -180,7 +180,7 @@ function HomePage() {
             </div>
             <div className="lg:col-span-4 flex items-end">
               <p className="text-ink-muted leading-relaxed">
-                Every home builds a stack — live channels, streaming apps, sports, and the connection that
+                Every home builds a stack - live channels, streaming apps, sports, and the connection that
                 keeps it all smooth. Internet in loop breaks it down so you can mix without overpaying.
               </p>
             </div>
@@ -207,7 +207,7 @@ function HomePage() {
                 <div>
                   <h3 className="font-display text-4xl text-ink leading-none">Streaming & TV</h3>
                   <p className="mt-3 text-ink-muted max-w-md">
-                    Live sports, premium channels, on-demand apps, and the internet plan behind them — ranked for how you really watch.
+                    Live sports, premium channels, on-demand apps, and the internet plan behind them - ranked for how you really watch.
                   </p>
                 </div>
                 <span className="h-12 w-12 rounded-full bg-ink text-cream grid place-items-center shrink-0 group-hover:bg-primary transition">
@@ -264,7 +264,7 @@ function HomePage() {
                 <div>
                   <div className="chip !bg-cream/15 !text-cream">Layer 04</div>
                   <h3 className="mt-2 font-display text-3xl leading-tight">
-                    Home Wi-Fi — the last ten meters that fix everything else.
+                    Home Wi-Fi - the last ten meters that fix everything else.
                   </h3>
                 </div>
               </div>
@@ -276,7 +276,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* ═══ 04 · HOW IT WORKS — editorial numbered strip over image ═══ */}
+      {/* ═══ 04 · HOW IT WORKS - editorial numbered strip over image ═══ */}
       <section className="relative py-24 bg-secondary">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8">
           <div className="grid lg:grid-cols-12 gap-12 items-start">
@@ -306,17 +306,17 @@ function HomePage() {
                 {
                   n: "01",
                   t: "Drop a ZIP",
-                  d: "We pull every streaming, live TV, and internet option that reaches your address — fiber, cable, 5G, and satellite — sorted in seconds.",
+                  d: "We pull every streaming, live TV, and internet option that reaches your address - fiber, cable, 5G, and satellite - sorted in seconds.",
                 },
                 {
                   n: "02",
                   t: "See it in plain English",
-                  d: "Speed tiers and channel counts translate to real-world scenes — HD movie nights, live sports, four-person stream days, a house full of screens.",
+                  d: "Speed tiers and channel counts translate to real-world scenes - HD movie nights, live sports, four-person stream days, a house full of screens.",
                 },
                 {
                   n: "03",
                   t: "Read the trade-offs",
-                  d: "Bundle math, streaming add-ons, contract length, upload speed — the fine print that provider pricing pages bury.",
+                  d: "Bundle math, streaming add-ons, contract length, upload speed - the fine print that provider pricing pages bury.",
                 },
                 {
                   n: "04",
@@ -339,7 +339,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* ═══ 05 · SPEED TRANSLATOR — pill row ═══ */}
+      {/* ═══ 05 · SPEED TRANSLATOR - pill row ═══ */}
       <section className="py-24">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8">
           <div className="text-center max-w-3xl mx-auto">
@@ -430,7 +430,7 @@ function HomePage() {
           <div className="lg:col-span-7">
             <span className="eyebrow">Chapter 04 · Our Charter</span>
             <h2 className="mt-4 font-display text-5xl text-ink leading-[1.02] tracking-[-0.025em]">
-              An <span className="italic text-primary">editorial desk</span> — not a sales floor.
+              An <span className="italic text-primary">editorial desk</span> - not a sales floor.
             </h2>
             <p className="mt-6 text-ink-muted leading-relaxed max-w-xl">
               Four rules that shape everything Internet in loop publishes.
@@ -440,7 +440,7 @@ function HomePage() {
                 {
                   n: "i.",
                   t: "Households first",
-                  d: "Every guide is written for the person deciding — never the provider bidding.",
+                  d: "Every guide is written for the person deciding - never the provider bidding.",
                 },
                 {
                   n: "ii.",
@@ -450,7 +450,7 @@ function HomePage() {
                 {
                   n: "iii.",
                   t: "Transparent trade-offs",
-                  d: "We surface contract terms, install windows and upload speeds — not just headline prices.",
+                  d: "We surface contract terms, install windows and upload speeds - not just headline prices.",
                 },
                 {
                   n: "iv.",
@@ -469,7 +469,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* ═══ 07 · TESTIMONIALS — offset editorial quote pair ═══ */}
+      {/* ═══ 07 · TESTIMONIALS - offset editorial quote pair ═══ */}
       <section className="py-24">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8">
           <div className="grid lg:grid-cols-12 gap-8 items-start">
@@ -590,7 +590,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* ═══ 09 · FAQ — editorial accordion ═══ */}
+      {/* ═══ 09 · FAQ - editorial accordion ═══ */}
       <section className="py-24">
         <div className="mx-auto max-w-[1200px] px-4 sm:px-8 grid lg:grid-cols-12 gap-10">
           <div className="lg:col-span-4">
@@ -607,11 +607,11 @@ function HomePage() {
               },
               {
                 q: "Is Internet in loop free to use?",
-                a: "Yes — always free for households. Participating providers may compensate us when a reader chooses their plan, and that funds the editorial. It never changes what we recommend.",
+                a: "Yes - always free for households. Participating providers may compensate us when a reader chooses their plan, and that funds the editorial. It never changes what we recommend.",
               },
               {
                 q: "How current is your data?",
-                a: "Streaming plan availability, channel lineups, and pricing are refreshed against provider feeds regularly. We surface what's live for your ZIP — not outdated cached data.",
+                a: "Streaming plan availability, channel lineups, and pricing are refreshed against provider feeds regularly - we surface what's live for your ZIP - not outdated cached data.",
               },
               {
                 q: "What if I only need advice?",
@@ -619,7 +619,7 @@ function HomePage() {
               },
               {
                 q: "Do you sell my information?",
-                a: "No. See our Privacy Policy for the full detail — but the short version is we don't sell, rent, or trade personal information.",
+                a: "No. See our Privacy Policy for the full detail - but the short version is we don't sell, rent, or trade personal information.",
               },
             ].map((f, i) => (
               <details key={i} className="group py-6" open={i === 0}>
@@ -636,7 +636,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* ═══ 10 · FINAL CTA — big ink block ═══ */}
+      {/* ═══ 10 · FINAL CTA - big ink block ═══ */}
       <section className="pb-24">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8">
           <div className="card-ink relative overflow-hidden p-10 sm:p-16">
@@ -657,12 +657,12 @@ function HomePage() {
                   Start with your ZIP <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                    href="tel:+18888824649"
-                  onclick="return gtag_report_conversion('tel:+18888824649');"
+                    href="tel:+18338211859"
+                  onclick="return gtag_report_conversion('tel:+18338211859');"
                   className="inline-flex items-center justify-between px-6 py-4 rounded-full border border-cream/25 text-sm font-medium text-cream hover:bg-cream hover:text-ink transition"
                 >
                   <span className="flex items-center gap-2">
-                    <Phone className="h-4 w-4" /> (888) 882-4649
+                    <Phone className="h-4 w-4" /> (833) 821-1859
                   </span>
                   <ArrowUpRight className="h-4 w-4" />
                 </a>

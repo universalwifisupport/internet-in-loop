@@ -10,9 +10,9 @@ export const Route = createFileRoute("/terms")({
       {
         name: "description",
         content:
-          "Terms of use governing Internet in loop — an independent editorial comparison platform for streaming services, live TV, sports packages, and connected home entertainment.",
+          "Terms of use governing Internet in loop - an independent editorial comparison platform for streaming services, live TV, sports packages, and connected home entertainment.",
       },
-      { property: "og:title", content: "Terms & Conditions — Internet in loop" },
+      { property: "og:title", content: "Terms & Conditions - Internet in loop" },
       { property: "og:url", content: "/terms" },
     ],
     links: [{ rel: "canonical", href: "/terms" }],
@@ -31,8 +31,8 @@ function TermsPage() {
       <LegalContent>
         <h2>1. Acceptance of Terms</h2>
         <p>
-          By using Internet in loop — including browsing guides, using the comparison tools, or
-          contacting our editorial team — you agree to these Terms & Conditions and our Privacy
+          By using Internet in loop - including browsing guides, using the comparison tools, or
+          contacting our editorial team - you agree to these Terms & Conditions and our Privacy
           Policy.
         </p>
 
@@ -102,7 +102,7 @@ function TermsPage() {
 
         <h2>11. Contact</h2>
         <p>
-          For questions about these terms, call <a href="tel:+18888824649">(888) 882-4649</a> or
+          For questions about these terms, call <a href="tel:+18338211859">(833) 821-1859</a> or
           email <a href="mailto:legal@internetinloop.com">legal@internetinloop.com</a>.
         </p>
       </LegalContent>

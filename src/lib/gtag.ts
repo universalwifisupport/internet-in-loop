@@ -14,7 +14,7 @@ export const GOOGLE_ADS_CONVERSION_ID = "AW-17865495674/uY4TCO_Lg40dEPqo98ZC";
  * navigates there after the event callback fires.
  *
  * Usage (React):
- *   <a href="tel:+18888824649" onClick={() => gtag_report_conversion()}>
+ *   <a href="tel:+18338211859" onClick={() => gtag_report_conversion()}>
  */
 export function gtag_report_conversion(url?: string): boolean {
   const callback = () => {

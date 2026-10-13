@@ -6,7 +6,7 @@ import { LegalContent } from "@/components/site/LegalContent";
 export const Route = createFileRoute("/disclaimer")({
   head: () => ({
     meta: [
-      { title: "Disclaimer — Internet in loop" },
+      { title: "Disclaimer - Internet in loop" },
       {
         name: "description",
         content:
@@ -56,7 +56,7 @@ function DisclaimerPage() {
           <h2>Contact</h2>
           <p>
             Questions? Reach us at <a href="mailto:hello@internetinloop.com">hello@internetinloop.com</a> or
-            (888) 882-4649.
+            (833) 821-1859.
           </p>
         </LegalContent>
       </div>

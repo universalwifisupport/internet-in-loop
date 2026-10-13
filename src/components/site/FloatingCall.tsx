@@ -3,8 +3,8 @@ import { Phone } from "lucide-react";
 export function FloatingCall() {
   return (
     <a
-      href="tel:+18888824649"
-      onclick="return gtag_report_conversion('tel:+18888824649');"
+      href="tel:+18338211859"
+      onclick="return gtag_report_conversion('tel:+18338211859');"
       aria-label="Call now"
       className="fixed bottom-6 right-6 z-40 group inline-flex items-center gap-3 bg-ink text-cream px-5 py-4 rounded-full shadow-elegant hover:bg-primary transition-colors"
     >
@@ -16,7 +16,7 @@ export function FloatingCall() {
         <span className="mono text-[10px] tracking-widest uppercase text-cream/70">
           Call a guide
         </span>
-        <span className="font-medium text-sm mono">(888) 882-4649</span>
+        <span className="font-medium text-sm mono">(833) 821-1859</span>
       </span>
     </a>
   );

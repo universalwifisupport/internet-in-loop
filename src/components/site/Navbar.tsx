@@ -33,7 +33,7 @@ export function Navbar() {
             scrolled ? "border-border bg-cream shadow-soft" : "border-transparent bg-cream/70"
           }`}
         >
-          <Link to="/" aria-label="Internet in loop — Home" className="flex items-center shrink-0">
+          <Link to="/" aria-label="Internet in loop - Home" className="flex items-center shrink-0">
             <img
               src={logo}
               alt="Internet in loop"
@@ -62,11 +62,11 @@ export function Navbar() {
 
           <div className="hidden md:flex items-center gap-2">
             <a
-              href="tel:+18888824649"
-              onclick="return gtag_report_conversion('tel:+18888824649');"
+              href="tel:+18338211859"
+              onclick="return gtag_report_conversion('tel:+18338211859');"
               className="hidden lg:inline-flex items-center gap-2 text-sm text-ink font-medium mono"
             >
-              <Phone className="h-3.5 w-3.5 text-primary" /> (888) 882-4649
+              <Phone className="h-3.5 w-3.5 text-primary" /> (833) 821-1859
             </a>
             <Link
               to="/contact"
@@ -108,11 +108,11 @@ export function Navbar() {
                 Check my area
               </Link>
               <a
-                href="tel:+18888824649"
-                onclick="return gtag_report_conversion('tel:+18888824649');"
+                href="tel:+18338211859"
+                onclick="return gtag_report_conversion('tel:+18338211859');"
                 className="flex items-center justify-center gap-2 mt-2 px-4 py-3 rounded-full border border-border text-sm font-medium text-ink mono"
               >
-                <Phone className="h-3.5 w-3.5 text-primary" /> (888) 882-4649
+                <Phone className="h-3.5 w-3.5 text-primary" /> (833) 821-1859
               </a>
             </div>
           </div>

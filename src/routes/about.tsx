@@ -9,11 +9,11 @@ import neighborhood from "@/assets/bl-neighborhood.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Internet in loop — Streaming TV & Entertainment Guide" },
+      { title: "About Internet in loop - Streaming TV & Entertainment Guide" },
       {
         name: "description",
         content:
-          "Internet in loop is an independent editorial guide for streaming platforms, live TV, and connected home entertainment — built to help households choose smarter without the sales pressure.",
+          "Internet in loop is an independent editorial guide for streaming platforms, live TV, and connected home entertainment - built to help households choose smarter without the sales pressure.",
       },
       { property: "og:title", content: "About Internet in loop" },
       {
@@ -33,7 +33,7 @@ function AboutPage() {
       <PageHero
         eyebrow="About Internet in loop"
         title="An editorial desk for how your home actually watches."
-        subtitle="Launched in 2026 with one job — cut through provider marketing and help households choose the best stream, channel package, and internet setup for their lifestyle."
+        subtitle="Launched in 2026 with one job - cut through provider marketing and help households choose the best stream, channel package, and internet setup for their lifestyle."
         bgImage={advisor}
       />
 
@@ -60,8 +60,8 @@ function AboutPage() {
                 <Link to="/contact" className="btn-accent">
                   Reach the desk <ArrowUpRight className="h-4 w-4" />
                 </Link>
-                <a href="tel:+18888824649" onclick="return gtag_report_conversion('tel:+18888824649');" className="btn-ghost">
-                  <Phone className="h-4 w-4" /> (888) 882-4649
+                <a href="tel:+18338211859" onclick="return gtag_report_conversion('tel:+18338211859');" className="btn-ghost">
+                  <Phone className="h-4 w-4" /> (833) 821-1859
                 </a>
               </div>
             </div>
@@ -100,7 +100,7 @@ function AboutPage() {
                 icon: Scale,
                 code: "ii.",
                 t: "Neutral",
-                d: "We compare across providers — no exclusive vendor deals shape editorial.",
+                d: "We compare across providers - no exclusive vendor deals shape editorial.",
               },
               {
                 icon: Shield,

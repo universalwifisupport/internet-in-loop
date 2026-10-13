@@ -9,13 +9,13 @@ import neighborhood from "@/assets/bl-neighborhood.jpg";
 export const Route = createFileRoute("/wireless")({
   head: () => ({
     meta: [
-      { title: "Streaming Wireless — Mobile, 5G Home Internet & Hotspots | Internet in loop" },
+      { title: "Streaming Wireless - Mobile, 5G Home Internet & Hotspots | Internet in loop" },
       {
         name: "description",
         content:
           "The Internet in loop guide to mobile plans, 5G home internet, and hotspots for households that want smooth streaming without the signal headaches.",
       },
-      { property: "og:title", content: "Streaming Wireless — Internet in loop" },
+      { property: "og:title", content: "Streaming Wireless - Internet in loop" },
       {
         property: "og:description",
         content: "Compare mobile, 5G home internet, hotspots, and coverage for live TV and streaming.",
@@ -33,7 +33,7 @@ const items = [
     tag: "Mobile",
     title: "Phone plans",
     accent: "card-tomato",
-    desc: "Unlimited, family, prepaid, and international-friendly mobile options from participating carriers — compared on hotspot limits, streaming performance, and roaming value.",
+    desc: "Unlimited, family, prepaid, and international-friendly mobile options from participating carriers - compared on hotspot limits, streaming performance, and roaming value.",
   },
   {
     icon: Signal,
@@ -63,7 +63,7 @@ function WirelessPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Section 03 · Streaming Wireless"
-        title="Mobile, 5G, and hotspots — built for a smoother stream."
+        title="Mobile, 5G, and hotspots - built for a smoother stream."
         subtitle="Coverage is local. Internet in loop weighs carriers against where you actually live, work, travel, and stream most often."
         bgImage={mobile}
       />
@@ -103,7 +103,7 @@ function WirelessPage() {
         </div>
       </section>
 
-      {/* Signal audit — split with big stat callouts */}
+      {/* Signal audit - split with big stat callouts */}
       <section className="py-24 bg-secondary">
         <div className="mx-auto max-w-[1400px] px-4 sm:px-8">
           <div className="grid lg:grid-cols-12 gap-10 items-center">
@@ -164,12 +164,12 @@ function WirelessPage() {
                   Check coverage <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="tel:+18888824649"
-                  onclick="return gtag_report_conversion('tel:+18888824649');"
+                  href="tel:+18338211859"
+                  onclick="return gtag_report_conversion('tel:+18338211859');"
                   className="inline-flex items-center justify-between px-6 py-4 rounded-full border border-cream/30 text-sm font-medium text-cream hover:bg-cream hover:text-ink transition"
                 >
                   <span className="flex items-center gap-2">
-                    <Phone className="h-4 w-4" /> (888) 882-4649
+                    <Phone className="h-4 w-4" /> (833) 821-1859
                   </span>
                   <ArrowRight className="h-4 w-4" />
                 </a>

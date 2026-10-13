@@ -12,7 +12,7 @@ export const Route = createFileRoute("/privacy")({
         content:
           "How Internet in loop collects, uses, and protects your information when you use our streaming, live TV, and connected-home entertainment comparison platform.",
       },
-      { property: "og:title", content: "Privacy Policy — Internet in loop" },
+      { property: "og:title", content: "Privacy Policy - Internet in loop" },
       { property: "og:url", content: "/privacy" },
     ],
     links: [{ rel: "canonical", href: "/privacy" }],
@@ -26,13 +26,13 @@ function PrivacyPage() {
       <PageHero
         eyebrow="Legal"
         title="Privacy Policy"
-        subtitle="Last updated: January 2026. Your data, handled with care — plain and simple."
+        subtitle="Last updated: January 2026. Your data, handled with care - plain and simple."
       />
       <LegalContent>
         <h2>1. Information We Collect</h2>
         <p>
-          Internet in loop ("we", "us") collects personal information you provide directly — name,
-          ZIP code, phone, and email — when you use our comparison tools or contact our editorial
+          Internet in loop ("we", "us") collects personal information you provide directly - name,
+          ZIP code, phone, and email - when you use our comparison tools or contact our editorial
           team. We also collect standard technical data such as device identifiers, IP address, and
           browser type to keep our platform running smoothly.
         </p>
@@ -87,7 +87,7 @@ function PrivacyPage() {
 
         <h2>9. Contact</h2>
         <p>
-          Questions? Call <a href="tel:+18888824649">(888) 882-4649</a> or email{" "}
+          Questions? Call <a href="tel:+18338211859">(833) 821-1859</a> or email{" "}
           <a href="mailto:privacy@internetinloop.com">privacy@internetinloop.com</a>.
         </p>
       </LegalContent>

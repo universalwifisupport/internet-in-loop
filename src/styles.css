@@ -104,7 +104,7 @@
 :root {
   --radius: 20px;
 
-  /* PAPER PRESS — warm cream editorial, tomato + mustard + sage */
+  /* PAPER PRESS - warm cream editorial, tomato + mustard + sage */
   --cream: oklch(0.965 0.022 78); /* soft paper */
   --background: oklch(0.965 0.022 78);
   --foreground: oklch(0.2 0.02 40);

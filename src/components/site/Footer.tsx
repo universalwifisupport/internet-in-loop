@@ -26,12 +26,12 @@ export function Footer() {
                 Start with your ZIP <ArrowUpRight className="h-4 w-4" />
               </Link>
               <a
-                href="tel:+18888824649"
-                onclick="return gtag_report_conversion('tel:+18888824649');"
+                href="tel:+18338211859"
+                onclick="return gtag_report_conversion('tel:+18338211859');"
                 className="inline-flex items-center justify-between px-6 py-4 rounded-full border border-cream/25 text-sm font-medium hover:bg-cream hover:text-ink transition"
               >
                 <span className="flex items-center gap-2">
-                  <Phone className="h-4 w-4" /> (888) 882-4649
+                  <Phone className="h-4 w-4" /> (833) 821-1859
                 </span>
                 <ArrowUpRight className="h-4 w-4" />
               </a>
@@ -41,7 +41,7 @@ export function Footer() {
 
         <div className="mt-14 grid lg:grid-cols-12 gap-10">
           <div className="lg:col-span-4">
-            <Link to="/" aria-label="Internet in loop — Home" className="inline-block">
+            <Link to="/" aria-label="Internet in loop - Home" className="inline-block">
               <img
                 src={logo}
                 alt="Internet in loop"
@@ -53,15 +53,15 @@ export function Footer() {
             </Link>
             <p className="mt-6 max-w-sm text-sm text-cream/70 leading-relaxed">
               Internet in loop is an editorial guide for streaming services, live TV, sports packages,
-              premium channels, and the internet that powers them all — written for households, not sales floors.
+              premium channels, and the internet that powers them all - written for households, not sales floors.
             </p>
             <div className="mt-8 space-y-2 text-sm text-cream/70">
               <a
-                href="tel:+18888824649"
-                onclick="return gtag_report_conversion('tel:+18888824649');"
+                href="tel:+18338211859"
+                onclick="return gtag_report_conversion('tel:+18338211859');"
                 className="flex items-center gap-3 hover:text-signal transition"
               >
-                <Phone className="h-4 w-4 text-signal" /> (888) 882-4649
+                <Phone className="h-4 w-4 text-signal" /> (833) 821-1859
               </a>
               <a
                 href="mailto:hello@internetinloop.com"
